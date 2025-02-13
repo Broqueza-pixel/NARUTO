@@ -1,0 +1,170 @@
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+}
+
+header {
+    background-color: #ff4d4d;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: #ffe6e6;
+}
+
+main {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.section {
+    margin: 2rem 0;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #b30000;
+}
+
+ul {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.game input, .game button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: 0.5rem;
+}
+
+.game input {
+    width: 40%;
+}
+
+.game button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.game button:hover {
+    background-color: #ff3333;
+}
+
+.result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #b30000;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff3333;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .game input {
+        width: 70%;
+    }
+
+    .game button {
+        width: 70%;
+    }
+
+    form input, form textarea {
+        width: 90%;
+    }
+}
+ .order-button {
+        background-color: #ff4d6d;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .order-button:hover {
+        background-color: #e63950;
+    }
+    
+    .items-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    .items-table th, .items-table td {
+        border: 1px solid hotpink;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .product-image {
+        width: 100px;
+        height: 100px;
+    }
